@@ -17,86 +17,117 @@
 </head>
 <body>
 
-    <div class="w-full h-24 bg-gray-100 text-center flex flex-col justify-center items-center">
-        <div class="uppercase">
-            logo
+    <div class="w-screen py-6 bg-gray-100 text-center flex flex-col justify-center items-center">
+        <div>
+            <svg class="w-12 md:w-24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220.51"><defs><style>.cls-1{fill:#537c39;}</style></defs><path class="cls-1" d="M315.51,23.23c-25.69-12-83.56-20.18-118.77,34.6a134,134,0,0,0-20.76,58H151.9a134,134,0,0,0-20.76-58C95.93,3.05,38.05,11.25,12.37,23.23A14.63,14.63,0,0,0,24.68,49.77c5.26-2.4,52.3-22.11,81.85,23.87,33.17,51.6,10.65,111.52-11.33,137.18a14.62,14.62,0,1,0,22.2,19c15.93-18.58,31.42-49.59,34.74-84.73h23.61c3.32,35.14,18.81,66.15,34.73,84.73a14.62,14.62,0,1,0,22.2-19c-12-14-24.13-38.21-27.31-65.7h82.69V115.87h-82.4a104.4,104.4,0,0,1,15.69-42.23c29.53-45.93,76.51-26.3,81.84-23.88a14.63,14.63,0,0,0,12.32-26.53Z" transform="translate(-3.96 -14.45)"/></svg>
         </div>
 
         <div>
-            <h1 class="text-4xl text-green-500">HayatFarms</h1>
+            <h1 class="text-xl md:text-4xl text-[#537c39]">HayatFarms</h1>
         </div>
     </div>
     
-    <div class="w-full h-20 shadow-lg flex flex-row justify-center items-center gap-8">
+    <div class="w-screen shadow-lg flex flex-col md:flex-row justify-center items-center gap-8 p-6 md:p-8">
         <img class="w-16" src="./img/icons/warning.svg" alt="Waring ICON">
-        <h1 class="text-gray-600 text-2xl"><span class="text-red-600 font-bold">Oops!</span> <a href="http://www.hayatfarms.com/" class="text-blue-500 hover:underline">hayatfarms.com</a> is currently under development</h1>
+        <h1 class="text-gray-600 text-md md:text-xl max-w-[56ch] text-justify md:text-left"><span class="text-red-600 font-bold">Oops!</span> <a href="http://www.hayatfarms.com/" class="text-blue-500 hover:underline">hayatfarms.com</a> is currently under development for further info contact <span class="whitespace-nowrap">Aamer Hayat Bhandara</span> <span class="font-bold whitespace-nowrap">+92 300 555 16 06</span></h1>
+    </div>
+
+    <div class="w-screen flex flex-col gap-10 justify-center items-center mt-12">
+
+        <div class="hidden md:block w-52 lg:w-80 h-52 lg:h-80 bg-no-repeat bg-cover bg-center rounded-full" style="background-image: url(./img/amar.jpg);"></div>
+        <img class="w-full block md:hidden" src="./img/amar.jpg" alt="aamer">
+        <h1 class="text-3xl text-gray-800 -mt-6 text-center">Aamer Hayat Bhandara</h1>
+        <p class="text-gray-600 text-md md:text-xl max-w-[64ch] text-center px-6">Aamer Hayat Bhandara is a farmer and Member of District Council Pakpattan.</p>
+        <p class="text-gray-600 text-md md:text-xl max-w-[80ch] text-center px-6">Aamer is working for the wellbeing and stability of small farming community especially rural women and youth with main focus on health and Water - Food - Energy nexus. He has contributed in different publications at international and national level on the other on the other hand he is a media activist as well as freelance writer and used to write articles on important issues faced in context of agriculture, policy and Climate Change in newspapers and magazines.</p>
+
+    </div>
+
+    <div class="w-full md:w-96 border-b-2 mx-auto mt-16"></div>
+
+    <div class="w-screen flex flex-col gap-10 justify-center items-center mt-12 bg-gray-300 px-4 py-12 md:px-12 mx:py-12 text-justify">
+
+        <h1 class="text-gray-700 font-bold text-3xl">Know Us</h1>
+
+        <p class="text-gray-600 text-md md:text-xl max-w-[80ch]">Hayat Farms deals in crop and livestock farming businesses, promoting the mechanisation, Climate Smart Agricultural Practices and Innovative techniques among the local small-to-large farming communities, merging the indigenous and advanced knowledge and information for the sustainable future of the earth.</p>
+        
+        <p class="text-gray-600 text-md md:text-xl max-w-[80ch]">Hayat Farms is a farm comprised of two sections Livestock & Agriculture situated in the most fertile plains of Pakistan in the suburbs of Pakpattan District.</p>
+        
+        <p class="text-gray-600 text-md md:text-xl max-w-[80ch]">Mr. Aamer Hayat Bhandara is currently managing the farm, is a commercial livestock farmer, and grows wheat, maize, rice, sorghum, potatoes and cotton. Mr. Bhandara is also a politician in Pakpattan, south Punjab, and is an elected member of the district council since 2019 and on various district -division- and- provincial level committees on agriculture and price control. He is also a fellow with LEAD (Leadership for Environment and Development), an independent policy think tank focused on policy research, public policy engagement, and leadership development in the public, private and not-for-profit sectors. Educated in Pakistan and Australia, Mr. Bhandara has served as a guest lecturer at different universities in Pakistan. He is an outspoken leader for small farmers, advocating for improved support for small farmers and raising awareness of the challenges via the media. He has worked to reduce the role of middlemen in the dairy and horticulture sectors and wants to attract more young people to careers in agriculture. His main areas of interest are sustainable agriculture development, women’s empowerment, food security, climate change, energy, and water.</p>
+    
     </div>
 
     <!-- Swiper -->
-    <div class="swiper mySwiper w-2/3 rounded-3xl mt-16">
+    <div class="w-screen swiper mySwiper md:w-2/3 md:rounded-3xl my-16 hidden sm:block">
         <div class="swiper-wrapper">
             <div class="swiper-slide h-[40rem]">
                 <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0031.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0004.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0004.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0005.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0005.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0006.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0006.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0007.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0007.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0008.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0008.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0010.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0010.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0011.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0011.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0012.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0012.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0013.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0013.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0014.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0014.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0015.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0015.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0016.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0016.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0017.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0017.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0018.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0018.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0019.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0019.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0020.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0020.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0029.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0029.jpg);"></div>
             </div>
             <div class="swiper-slide h-[40rem]">
-            <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0045.jpg);"></div>
+                <div class="w-full h-full bg-red-400 shadow-2xl bg-no-repeat bg-top bg-cover" style="background-image: url(./img/slides/IMG-20210904-WA0045.jpg);"></div>
             </div>
         </div>
 
         <div class="swiper-button-next text-white"></div>
         <div class="swiper-button-prev text-white"></div>
         <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- footer -->
+    <div class="w-screen bg-gray-900 text-white">
+       <div class="p-3">
+        <p class="text-gray-600 pl-2 text-sm text-center"></span> © All rights reserved by hayatfarms.com - Designed and Developed by Asad Ali Bhutta </p>
+       </div>
     </div>
 
     <!-- Swiper JS -->
